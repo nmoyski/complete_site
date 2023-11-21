@@ -204,7 +204,7 @@ figure img, figure video, figure figcaption {
   @media (prefers-reduced-motion: reduce) {
     .animation { animation: none; }
     .gif {display: none;}
-    h2 { animation: none;}
+    h2:hover { animation: none;}
   }
 
   @media only screen and (min-width: 768px) {
